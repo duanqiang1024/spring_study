@@ -16,6 +16,6 @@
     <!--第三种方式 构造函数参数名称  -->
     <!--<bean id="User" class="com.hillstone.pojo.User">
         <constructor-arg name="name" value="强哥厉害了"/>
-    </bean>-->
+    </bean> -->
 
 </beans>
