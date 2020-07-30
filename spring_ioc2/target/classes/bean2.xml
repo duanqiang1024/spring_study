@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--第一种方式 构造函数参数类型匹配  下不建议使用-->
+    <!-- <bean id="User" class="com.hillstone.pojo.User">
+         <constructor-arg type="java.lang.String" value="强哥"/>
+     </bean>-->
+
+    <!--第二种方式 构造函数参数索引  下标赋值!-->
+       <bean id="user" class="com.hillstone.pojo.User" name="user1">
+          <constructor-arg index="0" value="强哥学习Java"/>
+      </bean>
+    <!--第三种方式 构造函数参数名称  -->
+    <!--<bean id="User" class="com.hillstone.pojo.User">
+        <constructor-arg name="name" value="强哥厉害了"/>
+    </bean>-->
+
+</beans>
