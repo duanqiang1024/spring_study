@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_di" />
+        <module name="spring_appconfig" />
         <module name="spring_autowired" />
         <module name="spring_hellospring" />
         <module name="spring_ioc2" />
         <module name="spring_annotation" />
         <module name="spring_ioc" />
+        <module name="spring_proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
