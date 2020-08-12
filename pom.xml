@@ -18,6 +18,9 @@
         <module>spring_annotation</module>
         <module>spring_appconfig</module>
         <module>spring_proxy</module>
+        <module>spring_aop</module>
+        <module>spring_mybatis</module>
+        <module>spring_mybatis</module>
     </modules>
 
     <dependencies>

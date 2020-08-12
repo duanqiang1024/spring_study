@@ -8,16 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_di" />
         <module name="spring_appconfig" />
+        <module name="spring_aop" />
         <module name="spring_autowired" />
         <module name="spring_hellospring" />
         <module name="spring_ioc2" />
         <module name="spring_annotation" />
         <module name="spring_ioc" />
         <module name="spring_proxy" />
+        <module name="spring_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring_ioc" target="1.5" />
+      <module name="spring_mybatis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
